@@ -71,16 +71,20 @@ docker start "CONTAINER_ID"
 ```
 
 ### Configuring DBeaver
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/01.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/02.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/03.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/04.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/05.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/06.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/07.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/08.png?raw=true)
-![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/09.png?raw=true)
 <details>
   <summary>How to config with images</summary>
+  
+  * Creating Database
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/01.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/02.png?raw=true)
+    Password = docker2
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/03.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/04.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/05.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/06.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/07.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/08.png?raw=true)
+    DB created!
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/09.png?raw=true)
 </details>
   
