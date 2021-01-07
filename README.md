@@ -2,6 +2,27 @@
 
 This is the database of my MealPlus Project
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#configuring-docker">Configuring Docker</a></li>
+        <li><a href="#configuring-dbeaver">Configuring DBeaver</a></li>
+      </ul>
+    </li><!--
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+  </ol>
+</details>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -50,58 +71,16 @@ docker start "CONTAINER_ID"
 ```
 
 ### Configuring DBeaver
-
-<!--
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/01.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/02.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/03.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/04.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/05.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/06.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/07.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/08.png?raw=true)
+![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/09.png?raw=true)
+<details>
+  <summary>How to config with images</summary>
+</details>
+  
