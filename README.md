@@ -1,6 +1,16 @@
-# MealPlus-DB
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="_README.md/icon8.png?" alt="Logo" width="80" height="80">
+  </a>
 
-This is the database of my MealPlus Project
+  <h3 align="center">MealPlus-DB</h3>
+  This is the database of my MealPlus Project
+  <h2 />
+</p>
+
+</br>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
