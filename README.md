@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 * [Docker](https://www.docker.com/get-started) - An application for MacOS and Windows machines for the building and sharing of containerized applications.
+* [DBeaver](https://dbeaver.io/) - Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases.
 * Chocolatey - Chocolatey is software management automation for Windows that wraps installers, executables, zips, and scripts into compiled packages.
   * To install execute the codes with a terminal (ex: In Windows use PowerShell):
     ```
@@ -29,25 +30,28 @@ What things you need to install the software and how to install them
   ```
   choco install -y nodejs-lts yarn python2 jdk8
   ```
+
+### Configuring Docker
+
+Creating container for the Data Base. With a terminal run the code below:
+
+```
+docker run --name mealplus_postgres -e POSTGRES_PASSWORD=docker2 -p 5432:5432 -d postgres
+```
+
+Verify if the container is running before executing the code
+```
+docker ps
+```
+
+If it is not running execute the following code, just substitue "CONTAINER_ID" for the corresponding ID that can be found with the comand above.
+```
+docker start "CONTAINER_ID"
+```
+
+### Configuring DBeaver
+
 <!--
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
 Explain how to run the automated tests for this system
