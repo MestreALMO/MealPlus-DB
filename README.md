@@ -2,6 +2,28 @@
 
 This is the database of my MealPlus Project
 
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#configuring-docker">Configuring Docker</a></li>
+        <li><a href="#configuring-dbeaver">Configuring DBeaver</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#running-code">Running Code</a>
+      <ul>
+        <li><a href="#first-time">First Time</a></li>
+        <li><a href="#running">Running</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -50,58 +72,51 @@ docker start "CONTAINER_ID"
 ```
 
 ### Configuring DBeaver
+<details>
+  <summary>How to config with images</summary>
+  
+  * Creating Database
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/01.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/02.png?raw=true)
+    Password = docker2
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/03.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/04.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/05.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/06.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/07.png?raw=true)
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/08.png?raw=true)
+    DB created!
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/09.png?raw=true)
+</details>
 
-<!--
-## Running the tests
+## Running Code
 
-Explain how to run the automated tests for this system
+Now the PC is ready, we can run the code.
 
-### Break down into end to end tests
+### First time
 
-Explain what these tests test and why
+When running for the first time we need to run the following code in a terminal inside the project folder, so the tables and columns are created in the DB.
 
 ```
-Give an example
+yarn typeorm migration:run
 ```
 
-### And coding style tests
+<details>
+  <summary>Now in DBeaver we can see the tables and columns</summary>
+  
+  * Follow the path in the left to see the information
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/10.png?raw=true)
+</details>
 
-Explain what these tests test and why
+
+### Running
+
+In a terminal inside the project folder use the code:
 
 ```
-Give an example
+yarn dev:server
 ```
 
-## Deployment
+With that the DB will be running!!!
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+If there is desire to do some testing I recomend using [Insomnia](https://insomnia.rest/download/)
