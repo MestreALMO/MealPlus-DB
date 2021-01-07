@@ -34,10 +34,12 @@ This is the database of my MealPlus Project
   </ol>
 </details>
 
+</br>
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+</br>
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -63,6 +65,7 @@ What things you need to install the software and how to install them
   choco install -y nodejs-lts yarn python2 jdk8
   ```
 
+</br>
 ### Configuring Docker
 
 Creating container for the Data Base. With a terminal run the code below:
@@ -81,6 +84,7 @@ If it is not running execute the following code, just substitue "CONTAINER_ID" f
 docker start "CONTAINER_ID"
 ```
 
+</br>
 ### Configuring DBeaver
 <details>
   <summary>How to config with images</summary>
@@ -99,10 +103,12 @@ docker start "CONTAINER_ID"
     ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/09.png?raw=true)
 </details>
 
+</br>
 ## Running Code
 
 Now the PC is ready, we can run the code.
 
+</br>
 ### First time
 
 When running for the first time we need to run the following code in a terminal inside the project folder, so the tables and columns are created in the DB.
@@ -119,6 +125,7 @@ yarn typeorm migration:run
 </details>
 
 
+</br>
 ### Running
 
 In a terminal inside the project folder use the code:
