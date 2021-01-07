@@ -13,13 +13,14 @@ This is the database of my MealPlus Project
         <li><a href="#configuring-docker">Configuring Docker</a></li>
         <li><a href="#configuring-dbeaver">Configuring DBeaver</a></li>
       </ul>
-    </li><!--
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+    </li>
+    <li>
+      <a href="#running-code">Running Code</a>
+      <ul>
+        <li><a href="#first-time">First Time</a></li>
+        <li><a href="#running">Running</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
@@ -87,4 +88,35 @@ docker start "CONTAINER_ID"
     DB created!
     ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/09.png?raw=true)
 </details>
+
+## Running Code
+
+Now the PC is ready, we can run the code.
+
+### First time
+
+When running for the first time we need to run the following code in a terminal inside the project folder, so the tables and columns are created in the DB.
+
+```
+yarn typeorm migration:run
+```
+
+<details>
+  <summary>Now in DBeaver we can see the tables and columns</summary>
   
+  * Follow the path in the left to see the information
+    ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/10.png?raw=true)
+</details>
+
+
+### Running
+
+In a terminal inside the project folder use the code:
+
+```
+yarn dev:server
+```
+
+With that the DB will be running!!!
+
+If there is desire to do some testing I recomend using [Insomnia](https://insomnia.rest/download/)
