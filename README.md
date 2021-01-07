@@ -6,9 +6,9 @@
   </a>
 
   <h3 align="center">MealPlus-DB</h3>
-  This is the database of my MealPlus Project
-  <h2></h2>
 </p>
+
+This is the database of my MealPlus Project
 
 </br>
 
