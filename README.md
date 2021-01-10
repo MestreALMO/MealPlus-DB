@@ -31,6 +31,7 @@ This is the database of my MealPlus Project
         <li><a href="#running">Running</a></li>
       </ul>
     </li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -147,3 +148,15 @@ yarn dev:server
 With that the DB will be running!!!
 
 If there is desire to do some testing I recomend using [Insomnia](https://insomnia.rest/download/)
+
+</br>
+
+## Contact
+
+André Lusegardis Miranda de Oliveira
+
+lusegardis@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/andr%C3%A9-lusegardis/)
+
+[GitHub](https://github.com/MestreALMO)
