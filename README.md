@@ -153,10 +153,10 @@ If there is desire to do some testing I recomend using [Insomnia](https://insomn
 
 ## Contact
 
-André Lusegardis Miranda de Oliveira
+My Name: André Lusegardis Miranda de Oliveira
 
-lusegardis@gmail.com
+  * lusegardis@gmail.com
 
-[LinkedIn](https://www.linkedin.com/in/andr%C3%A9-lusegardis/)
+  * [LinkedIn](https://www.linkedin.com/in/andr%C3%A9-lusegardis/)
 
-[GitHub](https://github.com/MestreALMO)
+  * [GitHub](https://github.com/MestreALMO)
