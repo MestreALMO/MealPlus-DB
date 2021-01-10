@@ -117,7 +117,13 @@ Now the PC is ready, we can run the code.
 </br>
 ### First time
 
-When running for the first time we need to run the following code in a terminal inside the project folder, so the tables and columns are created in the DB.
+When running for the first time we need to run the following code in a terminal inside the project folder, so the project download the library that it uses
+
+```
+yarn
+```
+
+And in the same folder of the project still execute the following code so the tables and columns are created in the DB.
 
 ```
 yarn typeorm migration:run
