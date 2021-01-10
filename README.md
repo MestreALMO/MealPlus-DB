@@ -129,12 +129,9 @@ And in the same folder of the project still execute the following code so the ta
 yarn typeorm migration:run
 ```
 
-<details>
-  <summary>Now in DBeaver we can see the tables and columns</summary>
-  
+* Now in DBeaver we can see the tables and columns
   * Follow the path in the left to see the information
     ![DBeaver](https://github.com/MestreALMO/MealPlus-DB/blob/master/_README.md/DBeaver/10.png?raw=true)
-</details>
 
 
 </br>
