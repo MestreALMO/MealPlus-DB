@@ -48,6 +48,7 @@ What things you need to install the software and how to install them
 
 * [Docker](https://www.docker.com/get-started) - An application for MacOS and Windows machines for the building and sharing of containerized applications.
 * [DBeaver](https://dbeaver.io/) - Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases.
+* [Nodejs](https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * Chocolatey - Chocolatey is software management automation for Windows that wraps installers, executables, zips, and scripts into compiled packages.
   * To install execute the codes with a terminal (ex: In Windows use PowerShell):
     ```
